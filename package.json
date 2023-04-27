@@ -3,7 +3,7 @@
         "typescript": "4.x"
     },
     "license": "MIT",
-    "name": "codestreamjs",
+    "name": "textstream",
     "files": [
         "*.js",
         "*.map",
