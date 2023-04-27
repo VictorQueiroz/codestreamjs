@@ -1,0 +1,16 @@
+{
+    "devDependencies": {
+        "typescript": "4.x"
+    },
+    "license": "MIT",
+    "name": "codestreamjs",
+    "files": [
+        "*.js",
+        "*.map",
+        "*.d.ts"
+    ],
+    "version": "0.0.1",
+    "scripts": {
+        "prepublishOnly": "npx tsc -b . --force"
+    }
+}
