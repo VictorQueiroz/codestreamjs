@@ -6,5 +6,6 @@
     "outDir": "./browser",
     "target": "ES2019"
   },
-  "exclude": ["./test/**/*", "browser", "node_modules"]
+  "include": ["*.ts"],
+  "exclude": ["test", "browser", "node_modules"]
 }

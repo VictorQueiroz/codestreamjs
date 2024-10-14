@@ -30,6 +30,7 @@
     "*.js",
     "*.map",
     "*.d.ts",
+    "browser",
     "!test/**/*"
   ],
   "version": "0.2.0",
