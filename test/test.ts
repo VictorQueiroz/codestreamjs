@@ -4,7 +4,6 @@ import path from "node:path";
 import RingBufferWritableStream from "../RingBufferWritableStream";
 import TextStream, { TextStreamException } from "..";
 import { spy } from "sinon";
-import { Transform } from "node:stream";
 
 const fixturesDir = path.resolve(__dirname, "./fixtures");
 
