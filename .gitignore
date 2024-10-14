@@ -1,5 +1,7 @@
+/.history
 /node_modules
+/coverage
 *.js
 *.map
 *.d.ts
-tsconfig.tsbuildinfo
+*.tsbuildinfo

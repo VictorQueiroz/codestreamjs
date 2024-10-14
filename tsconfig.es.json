@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "outDir": "./browser",
+    "target": "ES2019"
+  },
+  "exclude": ["./test/**/*", "browser", "node_modules"]
+}

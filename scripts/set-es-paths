@@ -1,0 +1,16 @@
+#!/bin/bash
+
+ES_FOLDER=browser
+PKG_UTILITIES_ARGUMENTS=(
+  "--root-dir" "$(pwd)"
+  "--set-es-paths"
+  "--include" "*.{d.ts,map,js}"
+  "--exclude" "{node_modules,coverage,dist}/**/*"
+  "--es-folder" "${ES_FOLDER}"
+)
+
+# Build ES modules to `dist/es`
+npx tsc --project tsconfig.es.json
+
+# Update `pkg-utilities`
+npx pkg-utilities "${PKG_UTILITIES_ARGUMENTS[@]}"

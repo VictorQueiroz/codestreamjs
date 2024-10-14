@@ -1,5 +1,21 @@
 {
-    "tabWidth": 4,
-    "singleQuote": true,
-    "useTabs": false
+  "tabWidth": 2,
+  "useTabs": false,
+  "embeddedLanguageFormatting": "auto",
+  "insertPragma": false,
+  "proseWrap": "preserve",
+  "printWidth": 80,
+  "singleQuote": false,
+  "trailingComma": "none",
+  "bracketSpacing": true,
+  "arrowParens": "avoid",
+  "endOfLine": "lf",
+  "cursorOffset": -1,
+  "experimentalTernaries": true,
+  "quoteProps": "as-needed",
+  "semi": true,
+  "plugins": [],
+  "requirePragma": false,
+  "bracketSameLine": false,
+  "singleAttributePerLine": true
 }
