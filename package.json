@@ -34,7 +34,7 @@
     "browser",
     "!test/**/*"
   ],
-  "version": "0.3.0",
+  "version": "0.3.1",
   "scripts": {
     "test": "npx ava test",
     "test:watch": "npm run test -- --watch",
